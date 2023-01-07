@@ -15,7 +15,7 @@ import dash_bootstrap_components as dbc
 import numpy as np
 
 # read file
-pd_2 = pd.read_csv("C:\\Users\\Patrick NDUNGUTSE\\Desktop\\Graduate Courses\\Certifications\\Planning\\Dash course\\Sales_dashboard\\retail.csv")
+pd_2 = pd.read_csv("https://raw.githubusercontent.com/pndungutse/retail-dashboard-app-dash/main/retail.csv")
 pd_2['Date'] = pd.to_datetime(pd_2['Date'], format='%Y-%m-%d')
 
 # Total sales monthly level
