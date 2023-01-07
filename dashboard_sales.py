@@ -47,6 +47,8 @@ dept_df['Weekly_Sales'] = dept_df['Weekly_Sales'].round(1)
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+app.title = 'Retail dashboard dash'
+server = app.server
 
 PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
